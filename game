@@ -1,0 +1,25 @@
+class Hero
+
+
+	def initialize
+@chooseW = false
+@chooseM = false
+@chooseD = false
+	print 'выбери персонажа: '
+	choose = gets.to_s.chomp
+		puts 'Персонаж ' + choose.chomp
+	end
+	def war
+	@chooseW = true
+	puts 'воин'
+	end
+	def mage
+	@chooseM  = true
+	puts 'маг'
+	end
+	def defender
+	@chooseB = true
+	puts 'Защитник' 
+	end 
+	
+end
